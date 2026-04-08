@@ -1,6 +1,6 @@
 package com.bootcampexcercise.modul2;
 
-public class FindLargest {
+public class FindLargest_3 {
     public static void main(String[] args) {
         int x = 10;
         int y = 88;
