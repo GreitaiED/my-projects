@@ -1,6 +1,6 @@
 package com.bootcampexcercise.modul2;
 
-public class AddWholeNum {
+public class AddWholeNum_5 {
     public static void main(String[] args) {
         int sum = 0;
 

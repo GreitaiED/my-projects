@@ -1,6 +1,6 @@
 package com.bootcampexcercise.modul2;
 
-public class NumToWords {
+public class NumToWords_4 {
     public static void main(String[] args) {
         switchCaseEx(5);
         switchCaseEx(300);
