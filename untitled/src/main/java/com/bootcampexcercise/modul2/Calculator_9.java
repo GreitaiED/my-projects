@@ -20,7 +20,7 @@ public class Calculator_9 {
 
     public static void main(String[] args) {
         int num1 = 20;
-        int num2 = 6;
+        int num2 = 5;
 
         System.out.println("Sum: " + sum(num1, num2));
         System.out.println("Subtract: " + subtract(num1, num2));
