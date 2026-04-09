@@ -1,7 +1,7 @@
 package com.bootcampexcercise.modul5.task2;
 
 public abstract class Shape {
-    String color;
+    private String color;
 
     public abstract double calculateArea();
 

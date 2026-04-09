@@ -1,14 +1,30 @@
 package com.bootcampexcercise.modul5.task2;
 
 public class Rectangle extends Shape {
-    double length = 10;
-    double width = 5;
+    private double length;
+    private double breadth;
 
     public double calculateArea() {
-        return length * width;
+        return length * breadth;
     }
 
     public double calculatePerimeter() {
-        return 2 * (length + width);
+        return 2 * (length + breadth);
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+    public double getBreadth() {
+        return breadth;
+    }
+
+    public void setBreadth(double breadth) {
+        this.breadth = breadth;
     }
 }
