@@ -5,15 +5,14 @@ public class AnimalActivity {
         Animal cat = new Cat();
         Animal dog = new Dog();
 
-        Mammal catMammal = new Mammal("Tom");
-        Mammal dogMammal = new Mammal("Bob");
+        Mammal mammal = new Mammal("Tom");
 
-        catMammal.setAnimal(cat);
-        catMammal.animalIsSleeping();
-        catMammal.animalIsSpeaking();
+        mammal.setAnimal(cat);
+        mammal.animalIsSleeping();
+        mammal.animalIsSpeaking();
 
-        dogMammal.setAnimal(dog);
-        dogMammal.animalIsSleeping();
-        dogMammal.animalIsSpeaking();
+        mammal.setAnimal(dog);
+        mammal.animalIsSleeping();
+        mammal.animalIsSpeaking();
     }
 }

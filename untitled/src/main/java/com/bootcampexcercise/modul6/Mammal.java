@@ -13,12 +13,12 @@ public class Mammal {
     }
 
     public void animalIsSleeping() {
-        System.out.println("Animal with name: " + name + " is");
+        System.out.println("Animal with name: " + name + " is ...");
         myAnimal.sleep();
     }
 
     public void animalIsSpeaking() {
-        System.out.println("Animal with name: " + name + " is");
+        System.out.println("Animal with name: " + name + " is ...");
         myAnimal.animalSound();
     }
 }
